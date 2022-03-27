@@ -3,4 +3,4 @@ my vivaldi theme.
 
 Preview:
 
-![hackthebox Vivaldi Theme](/vivaldi-HTB.png)
+![hackthebox Vivaldi Theme](/vivaldi/vivaldi-HTB.png)

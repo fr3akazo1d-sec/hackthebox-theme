@@ -17,3 +17,9 @@ It contains:
 
 4. Iterm2 Theme
 
+---
+
+5. Powershell Theme
+
+![Powershell-Theme](/powershell/powershell-HTB.png)
+

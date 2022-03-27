@@ -4,6 +4,8 @@ It contains:
 
 
 1. Vivaldi Theme
+![Vivaldi-Theme](/vivaldi/vivaldi-HTB.png)
 2. Terminator Theme
-3. Iterm2 Theme
+![Terminator-Theme](/terminator/terminator-HTB.png)
+4. Iterm2 Theme
 

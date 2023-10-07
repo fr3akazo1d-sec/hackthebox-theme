@@ -1,0 +1,12 @@
+[Desktop Entry]
+Comment=a hackthebox based theme
+Name=Hackthebox
+X-KDE-PluginInfo-Author=Phil Malle
+X-KDE-PluginInfo-Category=Plasma Look And Feel
+X-KDE-PluginInfo-Email=mallephi@gmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPL 3+
+X-KDE-PluginInfo-Name=HackTheBox
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=philmalle.github.io
+X-KDE-ServiceTypes=Plasma/LookAndFeel

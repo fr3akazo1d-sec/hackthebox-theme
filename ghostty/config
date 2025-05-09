@@ -22,9 +22,9 @@ palette = 13=#d6acff
 palette = 14=#a4ffff
 palette = 15=#ffffff
 
-background = #0d1117
-foreground = #c9d1d9
-cursor-color = #2fef10
-cursor-text = #0d1117
+background = #141d2b
+foreground = #a4b1cd
+cursor-color = #9fef00
+cursor-text = #00fef00
 selection-background = #1f6feb
 selection-foreground = #c9d1d9

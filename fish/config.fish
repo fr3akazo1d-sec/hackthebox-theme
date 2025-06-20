@@ -7,17 +7,7 @@ function fish_greeting
     set_color normal
 end
 
-# Green/black hacker prompt (if not using Starship)
-if not type -q starship
-    function fish_prompt
-        set_color green
-        echo -n "[h4x0r@"(hostname)"]"
-        set_color normal
-        echo -n " "(prompt_pwd)" \$ "
-    end
-else
-    starship init fish | source
-end
+
 
 # Environment
 set -gx EDITOR nvim
@@ -105,6 +95,17 @@ function vpnip
     set_color 
 end
 
+
+if type -q starship
+    starship init fish | source
+else
+    function fish_prompt
+        set_color green
+        echo -n "[h4x0r@"(hostname)"]"
+        set_color normal
+        echo -n " "(prompt_pwd)" \$ "
+    end
+end
 
 # linux
 #function vpnip

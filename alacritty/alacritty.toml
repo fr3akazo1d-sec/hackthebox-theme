@@ -1,0 +1,59 @@
+[window]
+decorations = "full"
+opacity = 0.8
+
+  [window.dimensions]
+  columns = 100
+  lines = 35
+
+[font]
+size = 12
+
+  [font.normal]
+  family = "MesloLGS NF"
+
+  [font.bold]
+  family = "MesloLGS NF"
+  style = "Bold"
+
+  [font.italic]
+  family = "MesloLGS NF"
+  style = "Italic"
+
+  [font.bold_italic]
+  family = "MesloLGS NF"
+  style = "Bold Italic"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+[colors.primary]
+background = "#1a2332"
+foreground = "#a4b1cd"
+
+[colors.selection]
+text = "#ffffff"
+background = "#313f55"
+
+[colors.cursor]
+text = '#eee9fc'
+cursor = '#eee9fc'
+
+[colors.normal]
+black = "#000000"
+red = "#ff3e3e"
+green = "#9fef00"
+yellow = "#ffaf00"
+blue = "#5cb2ff"
+magenta = "#9f00ff"
+cyan = "#2ee7b6"
+white = "#ffffff"
+
+[colors.bright]
+black = "#666666"
+red = "#ff8484"
+green = "#c5f467"
+yellow = "#ffcc5c"
+blue = "#5cb2ff"
+magenta = "#c16cfa"
+cyan = "#5cecc6"
+white = "#ffffff"

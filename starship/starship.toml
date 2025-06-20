@@ -1,46 +1,116 @@
 format = """
-$username\
-$hostname\
-$directory\
-$git_branch\
-$git_state\
-$git_status\
-$cmd_duration\
-$line_break\
-$python\
-$character"""
+$directory $git_branch$git_status $rust $python $golang $php $nodejs $ruby $java $c $dotnet $perl $lua $haskell $elixir $docker_context $kubernetes $terraform $aws 
+$character
+"""
+
+right_format = """
+[ h3llo fr13nd! ](bold green)
+"""
 
 [directory]
-style = "blue"
-
-[character]
-success_symbol = "[❯](green)"
-error_symbol = "[❯](red)"
-vimcmd_symbol = "[❮](green)"
+style = "bold blue"
+truncation_length = 3
+truncation_symbol = "…/"
+format = "[$path]($style)"
 
 [git_branch]
-format = "[$branch]($style)"
-style = "bright-black"
+symbol = " "
+style = "bold green"
+format = "[$symbol$branch]($style)"
 
 [git_status]
-format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
-style = "cyan"
-conflicted = "​"
-untracked = "​"
-modified = "​"
-staged = "​"
-renamed = "​"
-deleted = "​"
-stashed = "≡"
+style = "green"
+format = "[$all_status$ahead_behind]($style)"
 
-[git_state]
-format = '\([$state( $progress_current/$progress_total)]($style)\) '
-style = "bright-black"
-
-[cmd_duration]
-format = "[$duration]($style) "
-style = "yellow"
+[rust]
+symbol = "🦀 "
+style = "bold green"
+format = "[$symbol$version]($style)"
 
 [python]
-format = "[$virtualenv]($style) "
-style = "bright-black"
+symbol = "🐍"
+style = "bold green"
+format = "[$symbol$version](bold green) [(venv: $virtualenv)](bold red)"
+
+
+[golang]
+symbol = "🐹 "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[php]
+symbol = "🐘 "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+
+[nodejs]
+symbol = " "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[ruby]
+symbol = "💎 "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[java]
+symbol = "☕ "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[c]
+symbol = " "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[dotnet]
+symbol = " "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[perl]
+symbol = "🐪 "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[lua]
+symbol = "🌙 "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[haskell]
+symbol = "λ "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[elixir]
+symbol = "💧 "
+style = "bold green"
+format = "[$symbol$version]($style)"
+
+[docker_context]
+symbol = "🐳 "
+style = "bold green"
+format = "[$symbol$context]($style)"
+
+[kubernetes]
+symbol = "☸️ "
+style = "bold green"
+format = "[$symbol$context]($style)"
+
+[terraform]
+symbol = "💠 "
+style = "bold green"
+format = "[$symbol$workspace]($style)"
+
+[aws]
+symbol = "🅰️ "
+style = "bold green"
+format = "[$symbol$profile]($style)"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[✗](bold red)"
+vimcmd_symbol = "[❯](bold green)"
+

@@ -7,7 +7,7 @@ opacity = 0.8
   lines = 35
 
 [font]
-size = 12
+size = 10
 
   [font.normal]
   family = "MesloLGS NF"
@@ -27,33 +27,33 @@ size = 12
 [colors]
 draw_bold_text_with_bright_colors = true
 [colors.primary]
-background = "#1a2332"
+background = "#141d2b"
 foreground = "#a4b1cd"
 
-[colors.selection]
-text = "#ffffff"
-background = "#313f55"
-
 [colors.cursor]
-text = '#eee9fc'
-cursor = '#eee9fc'
+text = "#141d2b"
+cursor = "#a4b1cd"
+
+[colors.selection]
+text = "#141d2b"
+background = "#141d2b"
 
 [colors.normal]
-black = "#000000"
-red = "#ff3e3e"
-green = "#9fef00"
-yellow = "#ffaf00"
-blue = "#5cb2ff"
-magenta = "#9f00ff"
-cyan = "#2ee7b6"
-white = "#ffffff"
+black   = "#181818"
+red     = "#FF5454"
+green   = "#9fef00"
+yellow  = "#FFD700"
+blue    = "#39C5FF"
+magenta = "#B839FF"
+cyan    = "#39FFB8"
+white   = "#C0C0C0"
 
 [colors.bright]
-black = "#666666"
-red = "#ff8484"
-green = "#c5f467"
-yellow = "#ffcc5c"
-blue = "#5cb2ff"
-magenta = "#c16cfa"
-cyan = "#5cecc6"
-white = "#ffffff"
+black   = "#282828"
+red     = "#FF6E6E"
+green   = "#9fef00"
+yellow  = "#FFF86E"
+blue    = "#70D7FF"
+magenta = "#D670FF"
+cyan    = "#70FFD7"
+white   = "#FFFFFF"
